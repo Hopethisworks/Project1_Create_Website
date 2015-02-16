@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+    <head><title>Think like a programmer</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+      <body>
+            <!--This is a comment that is ignored by the computer-->
+            <!--note that you need to tab to align your div and paragraphs up to make it easier to read and de-bug your code later - it looks like the best way to do this is to keep your BLOCK tags seperate from your text and at the beginning of the line -->
+            <h1>HTML Summary:</h1>
+        <div class="lesson">
+                <h2>Introduction</h2>
+                <div class="concept">
+                    <p>
+                    I've learned terminology like <em>tags</em> and <em>elements</em> (tag - content - tag) in HTML.  I have learned that there are different types of tags, some require <a href="http://www.google.com">attributes</a> and some impact the text by putting it in a "box" (the<em>"block"</em> elements.) The body of the web page is most important, and is the focus of this learning.  Complex information is in the header, and is important also. 
+                    </p>
+                    <p>
+                    I've learned that computers will follow these direction precisely, even if they are <b>incorrect</b> directions. 
+                    </p>
+                    <p>
+                    I've learned that repetition wastes time and can introduce errors.
+                    </p>
+                        <div class="focus">
+                            <strong>I've learned not to sweat remembering details that I can look it up.</strong> <!--I removed the tag "Center" after I learned about css.  BUT I was really proud that I figured "Center" out all on my own.-->
+                         </div>
+                </div>
+                <h2>Structure Tips</h2> 
+                <div class="concept">
+                    <p>
+                        The important things to take away from this are: <br>
+                        1. HTML and CSS are both "languages"<br>
+                        2. HTML controls the "structure" of a web page <br>
+                        3. CSS controls the "style" of a page (how it looks).<br>
+                        4. When programmers talk about the "DOM" they are talking about the tree-like structure of a page. <br><br>
+                        To learn more about "tree-like structure" refer (look it up if you forget!) to the wikipedia article on <a href="http://en.wikipedia.org/wiki/Tree_structure">Tree Structures.</a>
+                     </p>
+                </div>
+                <h2> Learning about CSS</h2>
+                <div class="concept">
+                    <p>
+                    CSS is a cascading style sheet, and is a way to define how you want your <em> class </em> to look.  It makes a lot more sense when you realize that <em> class </em> is a user-defined field, and you define the field in the style sheet. This significantly contributes to reduced repetition and also makes all of your similar elements look and behave the same.
+                    </p>
+                    <p>
+                    In CSS, code comments begin with /* and end with */.
+                    </p>
+                    </div>
+                <h2> Box Sizing</h2>
+                <div class="concept">
+                <p>
+                HTML elements are boxes and each box has 4 components (center out: content, padding, border, margin.) If you set sizing in % instead of pixels, it will re-size more properly on different size screens.  Also , it is important to set the box-sizing attribute to every element to this:<br>
+                <span class="focus">* {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+    } </span>
+    			</p>
+                <p>
+    Some other tips:<br>
+                1. 	Adding the rule display: flex; to the appropriate CSS will let divs appear next to each other but only when the sum is less than 100%. <br>
+                2. Look for Natural Boxes <br>
+                3. Look for repeated styles and semantic elements<br>
+                4. Write your HTML<br>
+                5. Apply Styles<br>
+                6. Click for <a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS hints</a> on how to use the flex box 
+                </p>
+         </div>
+         </div>
+      </body>
+</html>
